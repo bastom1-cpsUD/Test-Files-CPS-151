@@ -1,8 +1,13 @@
+import java.util.*;
+
 public class TestSetup {
     public static void main(String[] args) {
-        System.out.println("✅ VS Code is working with Java!");
-        System.out.println("Java version: " + System.getProperty("java.version"));
-        System.out.println("Operating System: " + System.getProperty("os.name"));
+       ArrayList<String> list = new ArrayList<>();
+       list.add("Hello, World!");
+       list.add("This is a test.");
+         for (String s : list) {
+              System.out.println(s);
+         }
     }
     
 }
